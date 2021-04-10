@@ -40,6 +40,6 @@ jobs:
       - name: Install Surge
         run: npm install --global surge
       - name: Run Surge
-        run: surge ./build project003.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build nasir-project003.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
        
